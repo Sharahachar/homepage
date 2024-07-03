@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    background-image: url("./bc.png");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%; 
+    background-position: center; 
+    background-attachment: fixed; 
+    z-index: -1;
+}
+.home-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  padding: 5px 10px;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid #ddd; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #dbe1cd;
+ 
+}
+.profile-container:hover {
+    
+  background-color: #5e60e0; 
+  border-radius: 40%;
+}
+
+.profile img {
+margin-top: 50; 
+width: 50px; 
+height: 50px; 
+border-radius: 50%; 
+object-fit: cover; 
+border: 2px solid #ddd; 
+box-shadow: 0 4px 8px rgba(63, 52, 52, 0.1);
+}
+
+.profile h2 {
+  font-size: 18px;
+  margin-top: 10;
+}
+
+.lower {
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+  font-size: 16px;
+  color: #81915d;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   .buttons {
+
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 10px 10%;
+    width:300px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px; 
+    background-color: #f7d4ed; 
+    color: #222221;
+   
+  }
+  
+  .buttons:hover {
+    background-color: #8a67eb; 
+  }
+  
+  
+  
