@@ -21,10 +21,10 @@ const MainContent = () => {
     </div>
       <div className='lower'>
         <div >
-          <button className="buttons">search by employee name</button>
+          <button   onClick={handleClick} className="buttons">search by employee name</button>
         </div>
         <div >
-        <button className="buttons">search by Team/Project</button>
+        <button  onClick={handleClick} className="buttons">search by Team/Project</button>
         
         </div>
         </div>
