@@ -1,10 +1,15 @@
 // src/components/MainContent.js
-import React from 'react';
+import React, { useState } from 'react';
 import './MainContent.css';
 import img1 from "./S.jpg" ;
 import img2 from "./profile.png";
 
 const MainContent = () => {
+  const [message,setMessage] = useState("hello");
+
+   const handleClick = () => {
+    setMessage('search by employee name');
+  };
   return (
   
     <main>
@@ -21,17 +26,15 @@ const MainContent = () => {
     </div>
       <div className='lower'>
         <div >
-          <button   onClick={handleClick} className="buttons">search by employee name</button>
+        
+          <button onClick={handleClick} className="buttons">search by employee name</button>
         </div>
         <div >
-        <button  onClick={handleClick} className="buttons">search by Team/Project</button>
+        <button className="buttons">search by Team/Project</button>
         
         </div>
         </div>
-    
     </main>
-    
   );
 }
-
 export default MainContent;
